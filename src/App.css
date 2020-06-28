@@ -1,0 +1,57 @@
+.videoitem {
+    padding:1%;
+}
+
+.videolist {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 500px;
+    min-height: 500px;
+    border:solid 1px black;
+    border-radius: 10px;
+}
+
+.delete {
+    font-size: 20px;
+    color: red;
+    position: relative;
+}
+.moveup{
+    font-size: larger;
+    font-weight: 800;
+    color: yellow;
+    position: relative;
+}
+
+.movedown{
+    font-size: larger;
+    color: blue;
+    position: relative;
+}
+.player {
+    float:right;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height: 80%;
+}
+
+.add {
+    width: 50%;
+    margin-left: 20%;
+    margin-right: 25%;
+    margin-bottom: 3%;
+    margin-top: 1%;
+
+}
+
+.urlinput {
+    width: 100%;
+    margin-bottom: 3%;
+    margin-top: 1%;
+}
+
+.inputbox {
+    width: 80%;
+    overflow-x: hidden;
+    height:39px;
+}
